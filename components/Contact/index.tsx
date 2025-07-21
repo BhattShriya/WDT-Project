@@ -318,6 +318,58 @@ const Contact = () => {
                   </div>
 
                   
+<div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+  <label
+    htmlFor="primarySkill"
+    className="mb-3 block text-sm font-medium text-dark dark:text-white"
+  >
+    Primary Skills and Technology
+  </label>
+  <select
+    id="primarySkill"
+    name="primarySkill"
+    className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+  >
+    <option value="">-- Select Primary Skill --</option>
+    <option value="javascript">JavaScript</option>
+    <option value="typescript">TypeScript</option>
+    <option value="python">Python</option>
+    <option value="java">Java</option>
+    <option value="csharp">C#</option>
+    <option value="cpp">C++</option>
+    <option value="react">React</option>
+    <option value="nextjs">Next.js</option>
+    <option value="angular">Angular</option>
+    <option value="vuejs">Vue.js</option>
+    <option value="nodejs">Node.js</option>
+    <option value="expressjs">Express.js</option>
+    <option value="mongodb">MongoDB</option>
+    <option value="sql">SQL</option>
+    <option value="postgresql">PostgreSQL</option>
+    <option value="firebase">Firebase</option>
+    <option value="aws">AWS</option>
+    <option value="azure">Azure</option>
+    <option value="docker">Docker</option>
+    <option value="kubernetes">Kubernetes</option>
+    <option value="flutter">Flutter</option>
+    <option value="reactnative">React Native</option>
+    <option value="tensorflow">TensorFlow</option>
+    <option value="pytorch">PyTorch</option>
+    <option value="figma">Figma</option>
+    <option value="photoshop">Photoshop</option>
+    <option value="illustrator">Illustrator</option>
+    <option value="blockchain">Blockchain</option>
+    <option value="solidity">Solidity</option>
+  </select>
+</div>
+
+
+                  </div>
+
+
+
+
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
