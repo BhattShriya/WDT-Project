@@ -33,6 +33,7 @@ const Contact = () => {
                         className="border-stroke dark:text-body-color-dark dark:shadow-two w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
+                    
                   </div>
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -49,6 +50,46 @@ const Contact = () => {
                       />
                     </div>
                   </div>
+
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+  <label className="mb-3 block text-sm font-medium text-dark dark:text-white">
+    Gender
+  </label>
+  <div className="flex items-center space-x-6">
+    <label className="flex items-center text-sm font-medium text-body-color dark:text-white">
+      <input
+        type="radio"
+        name="gender"
+        value="male"
+        className="border-stroke dark:text-body-color-dark dark:shadow-two mr-2 rounded-sm border bg-[#f8f8f8] text-body-color focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+      />
+      Male
+    </label>
+    <label className="flex items-center text-sm font-medium text-body-color dark:text-white">
+      <input
+        type="radio"
+        name="gender"
+        value="female"
+        className="border-stroke dark:text-body-color-dark dark:shadow-two mr-2 rounded-sm border bg-[#f8f8f8] text-body-color focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+      />
+      Female
+    </label>
+    <label className="flex items-center text-sm font-medium text-body-color dark:text-white">
+      <input
+        type="radio"
+        name="gender"
+        value="other"
+        className="border-stroke dark:text-body-color-dark dark:shadow-two mr-2 rounded-sm border bg-[#f8f8f8] text-body-color focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:focus:border-primary dark:focus:shadow-none"
+      />
+      Other
+    </label>
+  </div>
+</div>
+
+                  </div>
+
+                  
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
