@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Available Opportunities"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="These projects have been shared by clients and are open for collaboration. Apply directly to get hired."
           center
         />
 
